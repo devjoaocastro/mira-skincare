@@ -779,3 +779,23 @@ em {
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  /* stack the newsletter pill — side-by-side leaves no room for the email */
+  .news {
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 28px;
+    padding: 14px;
+  }
+
+  .news input {
+    width: 100%;
+    text-align: center;
+    padding: 6px 0;
+  }
+
+  .news button {
+    width: 100%;
+  }
+}

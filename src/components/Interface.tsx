@@ -184,19 +184,19 @@ export default function Interface() {
               <h3>Shop</h3>
               <a href="#the-bottle" onClick={(e) => { e.preventDefault(); scrollToPage(4) }}>The Bottle</a>
               <a href="#refills" onClick={(e) => { e.preventDefault(); scrollToPage(5) }}>Refills</a>
-              <a href="#gift" onClick={(e) => e.preventDefault()}>Gift a ritual</a>
+              <a href="mailto:hello@mira.skin?subject=Gift%20a%20ritual">Gift a ritual</a>
             </div>
             <div>
               <h3>Help</h3>
               <a href="#how" onClick={(e) => { e.preventDefault(); scrollToPage(2) }}>How to use</a>
-              <a href="#shipping" onClick={(e) => e.preventDefault()}>Shipping &amp; returns</a>
+              <a href="mailto:hello@mira.skin?subject=Shipping%20%26%20returns">Shipping &amp; returns</a>
               <a href="mailto:hello@mira.skin">Talk to a human</a>
             </div>
             <div>
               <h3>World</h3>
               <a href="#philosophy" onClick={(e) => { e.preventDefault(); scrollToPage(1) }}>Philosophy</a>
               <a href="#ingredients" onClick={(e) => { e.preventDefault(); scrollToPage(3) }}>Ingredients</a>
-              <a href="#journal" onClick={(e) => e.preventDefault()}>Journal</a>
+              <a href="mailto:hello@mira.skin?subject=Journal">Journal</a>
             </div>
           </div>
 
